@@ -1,0 +1,503 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-weight: 100;
+}
+
+body {
+  width: 90rem;
+}
+
+header {
+  background: #fff0ed;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #fff0ed;
+  padding: 2rem 0rem 0rem 1rem;
+  width: 90rem;
+  height: 7.9375rem;
+}
+
+.nav--left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul {
+  font-size: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 30%;
+  margin-top: 1vh;
+  position: relative;
+  left: 0.6vw;
+}
+
+.buttonBorder {
+  width: 11.25rem;
+  height: 3.4375rem;
+  border: 2px solid black;
+  position: relative;
+  right: 0.3125rem;
+  bottom: 0.3125rem;
+}
+
+.buttonBorder--viewAll {
+  top: 5.6rem;
+  right: 0.4rem;
+}
+
+.buttonBorder:active {
+  left: 0.01rem;
+  top: 0.01rem;
+}
+
+.buttonBorder--viewAll:active {
+  top: 6rem;
+  right: 0rem;
+}
+
+#shopNow {
+  color: #5bacc3;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5vh 8vw;
+}
+
+.heroWords {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 8%;
+}
+
+.headerTitle {
+  font-weight: 100;
+  font-size: 3.125rem;
+  margin-bottom: 2rem;
+  color: #393939;
+}
+
+.headerLinksList {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.headerTitle2 {
+  font-weight: 100;
+  font-size: 3.75rem;
+  margin-bottom: 2rem;
+}
+
+.headerDescription {
+  width: 75%;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+button {
+  position: absolute;
+  width: 11.25rem;
+  height: 3.4375rem;
+  color: #fff;
+  background: #5bacc3;
+  border: none;
+  font-size: 1.3125rem;
+}
+
+.card {
+  width: 17.1875rem;
+  height: 22.6875rem;
+  border-radius: 0.625rem;
+  -webkit-box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+}
+
+.cardOne {
+  width: 17.1875rem;
+  height: 22.6875rem;
+  border-radius: 0.625rem;
+  -webkit-box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+}
+
+.cardOnePlus {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cardTwo {
+  width: 19.1875rem;
+  height: 24.6875rem;
+}
+
+.imgWrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1rem 0rem;
+}
+
+.ourProductsWords {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background: #fff0ed;
+}
+
+.cardCollection {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.logoWrap {
+  margin-bottom: 2rem;
+}
+
+.ourProducts {
+  background: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ourProductsWords--left {
+  width: 80%;
+}
+
+.ourProductsTitle {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 1.3125rem;
+  font-weight: 100;
+}
+
+.title2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price {
+  color: #5bacc3;
+  margin-bottom: 2rem;
+  font-size: 1.3125rem;
+  font-weight: 100;
+}
+
+.price2 {
+  color: #5bacc3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  width: 50%;
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.viewAll {
+  margin: 6rem 0rem 0rem;
+}
+
+.discount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8rem;
+}
+
+.discountTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 93%;
+  margin-bottom: 8rem;
+  z-index: 1;
+}
+
+.discountWordsTop {
+  -webkit-box-flex: 0.75;
+  -ms-flex: 0.75;
+  flex: 0.75;
+}
+
+.discountImgWrap {
+  width: 27.1875rem;
+  height: 27.1875rem;
+  background: url("../assets/coldbrewbackground.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0.5;
+  -ms-flex: 0.5;
+  flex: 0.5;
+  position: absolute;
+  bottom: -84rem;
+}
+
+.discountImg {
+  z-index: 2;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.discountImg:hover {
+  -webkit-animation: spin 1.5s infinite linear;
+          animation: spin 1.5s infinite linear;
+}
+
+.discountIconCollection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.discountIcon {
+  width: 3.125rem;
+}
+
+.borderImgWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.iconBorder {
+  width: 27.1875rem;
+  height: 27.1875rem;
+  border: 4px solid #5bacc3;
+  z-index: 1;
+  position: relative;
+  top: 5rem;
+  right: 1rem;
+}
+
+.discountWords {
+  padding: 4rem 2rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  font-size: 2.8125rem;
+}
+
+@-webkit-keyframes change-background-color {
+  0% {
+    background: rgba(0, 0, 0, 0.85);
+  }
+  50% {
+    background: #5bacc3;
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.85);
+  }
+}
+
+@keyframes change-background-color {
+  0% {
+    background: rgba(0, 0, 0, 0.85);
+  }
+  50% {
+    background: #5bacc3;
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.85);
+  }
+}
+
+.discountWords {
+  -webkit-animation: change-background-color 3s infinite;
+          animation: change-background-color 3s infinite;
+}
+
+.discountWordsTop h2 {
+  margin: 2rem 0rem;
+}
+
+.discountWordsTop p {
+  width: 90%;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 2rem 0rem;
+}
+
+.discountWordsTopParagraph {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.discountWordsFontTwo {
+  font-size: 3rem;
+}
+
+.discountIconCollection {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 2rem 0rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+footer {
+  background: #fff0ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding: 7rem 0rem;
+  position: relative;
+}
+
+.footerHeading {
+  margin-bottom: 2rem;
+  font-weight: 100;
+  font-size: 2.0625rem;
+}
+
+.footerP {
+  margin-bottom: 2rem;
+}
+
+.footerBeansImg {
+  width: 7rem;
+}
+
+.footerBeansWrap {
+  position: absolute;
+}
+
+.footerBeansWrapOne {
+  left: 5rem;
+  bottom: 15rem;
+}
+
+.footerBeansWrapTwo {
+  left: 85rem;
+  top: 15rem;
+}
+/*# sourceMappingURL=main.css.map */

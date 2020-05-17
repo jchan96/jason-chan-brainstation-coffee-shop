@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  width: 90rem;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 2.0625rem;
+  font-weight: 100;
+}
+
+p {
+  font-size: 2.0625rem;
+  font-style: italic;
+}
+
+.topNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff0ed;
+  padding: 2rem 0rem 0rem 1rem;
+  width: 90rem;
+}
+
+.topNav--left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerLinksWrap {
+  font-size: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 175%;
+  color: black;
+  position: relative;
+  top: 1.5rem;
+  right: 11rem;
+}
+
+.headerLink {
+  color: black;
+}
+
+#shopNow {
+  color: #5bacc3;
+}
+
+.menu-text {
+  font-size: 1.125rem;
+}
+
+.logoWrap {
+  margin-bottom: 2rem;
+}
+
+.headerTitle {
+  font-weight: 100;
+  font-size: 3.125rem;
+  margin-bottom: 2rem;
+  color: #393939;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../assets/coffee-circle.jpg");
+  width: 90rem;
+  height: 35.9375rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 17.8125rem;
+  height: 11.5625rem;
+  color: #fff;
+  background-color: #464646;
+  font-weight: 100;
+  font-size: 3.75rem;
+  position: relative;
+  left: 8.90625rem;
+}
+
+.detailBox {
+  width: 17.8125rem;
+  height: 11.5625rem;
+  border: 4px solid #5bacc3;
+  position: relative;
+  right: 9.65625rem;
+  bottom: 0.75rem;
+}
+
+.subNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90rem;
+  height: 4.625rem;
+  color: #fff;
+  font-size: 1.3125rem;
+  background-color: #393939;
+}
+
+.subNav__a {
+  border-left: 2px solid #5bacc3;
+  padding: 0vh 1vw;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hotDrinks {
+  background-color: #fff0ed;
+  padding: 1rem;
+}
+
+.hotDrinks__title,
+.coldDrinks__title,
+.pastries__title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.description {
+  text-align: center;
+  width: 33%;
+  margin-bottom: 1rem;
+}
+
+.price {
+  color: #5bacc3;
+  text-align: center;
+}
+
+.coldDrinks {
+  background-color: #f7f7f7;
+  padding: 1rem;
+}
+
+.pastries {
+  background-color: #fff0ed;
+  padding: 1rem;
+}
+
+.firstItem {
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=menu.css.map */
